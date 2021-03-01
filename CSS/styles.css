@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-rows: 3rem 35rem 3rem;
+    grid-template-rows: 3rem 55rem 3rem;
     grid-template-columns: 10rem 1fr;
     grid-template-areas:
         'header header header'
@@ -25,6 +25,7 @@
 .footer {
     grid-area: footer;
     background: #EDDDD0;
+    padding: 1rem;
 }
 
 .sidebar {
@@ -42,6 +43,9 @@
     font-size: large;
     padding: 2rem;
     font-family: 'Stick', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: auto;
 
 }
 
@@ -57,7 +61,8 @@
     font-size: large;
 }
 
-.pic    {
-    width: 350px;
-    height: auto;
+img{
+    max-width: 25%;
+    max-height: auto;
+    display: block;
 }
