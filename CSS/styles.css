@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    grid-template-rows: 3rem 35rem 3rem;
+    grid-template-columns: 10rem 1fr;
+    grid-template-areas:
+        'header header header'
+        'sidebar content content'
+        'footer footer footer';
+}
+
+.header {
+    grid-area: header;
+    background: #EDDDD0;
+    display: flex;    
+}
+
+.header a{
+    color: #334259;
+}
+
+.header .item1:hover{
+    background-color: #DB504A;
+}
+
+.footer {
+    grid-area: footer;
+    background: #EDDDD0;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #6E8783;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.content {
+    grid-area: content;
+    background: #E5E5DC;
+    font-size: large;
+    padding: 2rem;
+
+}
+
+.item1  {
+    padding: 10px;
+    color: #334259;
+}
+
+.c1 a{
+    color: #334259;
+}
+
+.pic    {
+    width: 350px;
+    height: auto;
+}
