@@ -41,16 +41,20 @@
     background: #E5E5DC;
     font-size: large;
     padding: 2rem;
+    font-family: 'Stick', sans-serif;
 
 }
 
 .item1  {
     padding: 10px;
     color: #334259;
+    font-family: 'Noto Serif', serif;
 }
 
+
 .c1 a{
-    color: #334259;
+    color: #EDDDD0;
+    font-size: large;
 }
 
 .pic    {
